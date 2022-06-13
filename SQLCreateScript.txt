@@ -1,0 +1,8 @@
+CREATE TABLE `scores` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `playerId` varchar(36) NOT NULL,
+  `parkourId` varchar(45) NOT NULL,
+  `score` double NOT NULL,
+  `date` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

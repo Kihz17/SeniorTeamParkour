@@ -1,0 +1,16 @@
+build/
+old/
+out/
+debug/
+
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/*
+.idea/inspectionProfiles/*
+.idea/runConfigurations/Spigot_Server.xml
+src/main/resources/dup.txt
+src/main/resources/secret.txt
+
+.idea/compiler.xml
+/.idea/
+/gradle/
